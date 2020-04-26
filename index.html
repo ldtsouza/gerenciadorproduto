@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Gerenciador de Produtos</title>
+</head>
+<body>
+
+ 
+ 
+ <h1> GERENCIADOR DE PRODUTOS &#128722;</h1>
+ 
+ <p> <span style='font-size:50px;'>&#9818;</span> Laudilene Souza - RA 819157991 - Loja de Joias </p>
+
+
+ <h3> Cadastrar Produto &#128517;</h3>
+   
+<form method="post"  action="CadastrarProduto.do">
+      <p> 
+      Código: <input type="number" name="codigo_produto" /> <br>
+      <br>
+       Nome: <input type="text" name="nome_produto" /> <br>
+      <br>
+       Descrição:<input type="text" name="descricao_produto" /> <br>
+      <br>
+       Valor: <input type="number" name="valor_produto" /> <br>
+      <br>
+       Estoque: <input type="number" name="estoque_produto" /> <br>
+      <br>
+      <input type="submit"  value="Cadastrar"> 
+      <input type="reset"  value="Limpar">
+ </p>
+
+ </form>
+ 
+
+
+<h3> Alterar Produto &#128530;</h3>
+<form method="post"  action="AlterarProduto.do">
+     
+       <p> 
+      Código: <input type="number" name="codigo_produto" /> <br>
+      <br>
+       Nome: <input type="text" name="nome_produto" /> <br>
+      <br>
+       Descrição:<input type="text" name="descricao_produto" /> <br>
+      <br>
+       Valor: <input type="number" name="valor_produto" /> <br>
+      <br>
+       Estoque: <input type="number" name="estoque_produto" /> <br>
+      <br>
+     
+     <input type="submit"  value="Alterar"> 
+     <input type="reset"  value="Limpar">
+
+      </p>
+      </form>
+
+<h3> Listar Produtos &#128537;</h3>
+<form method="get"  action="ListarProdutos.do">
+           <p> 
+
+      <input type="submit"  value="Listar"> 
+      <input type="reset"  value="Limpar">
+ </p>
+
+ </form>
+ 
+   <h3> Consultar Produto &#128525;</h3>
+ <form method="post"  action="ConsultarProduto.do">
+     
+       <p> 
+      Código: <input type="number" name="codigo_produto" /> <br>
+      <br>
+     
+     <input type="submit"  value="Consultar"> 
+     <input type="reset"  value="Limpar">
+
+      </p>
+      </form>
+
+<h3> Excluir Produto &#128533;</h3>
+  
+<form method="get"  action="ExcluirProduto.do">
+      <p> 
+      Código: <input type="number" name="codigo_produto" /> <br>
+      <br>
+         
+      <input type="submit"  value="Excluir"> 
+      <input type="reset"  value="Limpar">
+ </p>
+
+ </form>
+
+ 
+
+
+
+</body>
+</html>
